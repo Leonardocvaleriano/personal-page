@@ -150,7 +150,7 @@ i.menu-mobile {
     position:fixed;
     color: #fff;
     background-color: #57595c;
-    right: 1rem;
+    right: 0.7rem;
     top: 1rem;
     font-size: 1.5rem;
     border-radius: 4rem;
@@ -210,11 +210,13 @@ i.menu-mobile {
 section#home h2{
      
     margin-top: 4rem;
-    font-size: 4.5rem; 
+    font-size: 2.5rem; 
 }
+
+
 section#home span#subtitle{
     margin-top: -0.5rem;
-    font-size: 3.0rem;
+    font-size: 1rem;
 }
 
 }
