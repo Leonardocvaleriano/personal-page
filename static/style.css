@@ -188,6 +188,10 @@ i.menu-mobile {
   
 }
 
+.section-bg{
+    background-color: #dedee7;
+}
+
 
 
 @media (max-width: 1024px){
