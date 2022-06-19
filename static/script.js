@@ -26,3 +26,26 @@ menuMobile.addEventListener('click', () => {
 
         })
     })
+
+    /*   Animar todos os itens na tela que tiverem meu atributo data-anime */ 
+
+    const item = document.querySelectorAll("[data-anime]");
+
+    const animeScroll = () => {
+        const windowTop = window.pageYOffset + window.innerHeight * 0.85;
+
+        item.forEach((eLement) => {
+            if(windowTop > eLement.offsetTop ){
+                eLement.classList.add("animate");
+            }else{
+                eLement.classList.remove("animate");
+            }
+        });
+        
+    };
+
+    animeScroll();
+
+    window.addEventListener("scroll", ()=>{
+      animeScroll();
+    })
