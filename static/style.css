@@ -268,19 +268,31 @@ section#home h2{
 
 
 section#home span#subtitle{
+    
     margin-top: -0.5rem;
     font-size: 1rem;
 }
 
 section#about h3{
+
     margin-top: 1rem;
 }
 
 }
 
 section#contact .address p {
+
     color: rgb(12, 180, 34);
+    font-size: 20px;
 }
+
+section#contact .email p {
+
+    font-size: 20px;
+}
+
+
+
 
 
 
@@ -298,6 +310,8 @@ section#contact .address p {
      margin-bottom:-35px;
       
  }
+
+ 
  
 
 /* anime */
