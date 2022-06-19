@@ -1,7 +1,10 @@
 from socket import if_nameindex
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template
+ 
+
 
 app = Flask(__name__)
+ 
 
 @app.route('/')
 def index():
