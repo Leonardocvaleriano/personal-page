@@ -284,13 +284,20 @@ section#about h3{
 section#contact .address p {
 
     color: rgb(12, 180, 34);
-    font-size: 20px;
+
 }
 
-section#contact .email p {
-
+section#contact h4 {
+  
     font-size: 20px;
+    font-weight: 450;
 }
+
+section#contact p{
+ 
+    font-size: 18px;
+}
+
 
 
 
