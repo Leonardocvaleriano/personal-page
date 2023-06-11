@@ -299,11 +299,6 @@ section#contact p{
 }
 
 
-
-
-
-
-
 .carousel-control-prev{
     margin-left: -8rem;
   
@@ -352,8 +347,6 @@ section#contact p{
    
 }
 
-
-
  
 @media(max-width: 1860px){
 
@@ -361,16 +354,56 @@ section#contact p{
     transform: translate3d( 0, 100%, 0);
 }
 
-    
+
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+
+.slider {
+    display: flex;
+    /* aspect-ratio: 16 / 9; */
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+} 
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    /* object-fit: cover; */
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #625e5e;
+    opacity: 0.25%; 
+    transition: opacity ease 250ms;
+}
+.slider-nav:hover{
+    opacity: 1;
+}
+
 .carousel-control-prev{
     margin-left: 0;
-    
-  
  }
  
  .carousel-control-next{
-     margin-right: 0;
-     
+     margin-right: 0;     
  }
    
  .carousel-indicators{
@@ -378,4 +411,5 @@ section#contact p{
      margin-bottom:-35px;
       
  }
- }
+ 
+}
